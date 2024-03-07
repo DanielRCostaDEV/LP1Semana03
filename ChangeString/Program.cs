@@ -11,6 +11,23 @@ namespace ChangeString
 
             Console.Write("Please insert a character to be replaced: ");
             char c = char.Parse(Console.ReadLine());
+
+            foreach (char x in str)
+            {
+                if (x == c)
+                {
+                    Console.Write("X")
+                }
+
+                else
+                {
+                    Console.Write(x)
+                }
+
+
+
+
+            }
         }
     }
 }
